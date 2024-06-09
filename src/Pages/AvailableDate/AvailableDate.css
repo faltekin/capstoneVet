@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.date-create,
+.search-date,
+.available-dates-list {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.date-create input,
+.search-date input,
+.button {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.date-create button,
+.search-date button,
+.button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.available-dates-list h2 {
+  margin-bottom: 15px;
+}
+
+.available-dates-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.available-dates-list li {
+  margin-bottom: 10px;
+}
+
+.available-dates-list button {
+  border: none;
+  cursor: pointer;
+}
+
+.available-dates-list button:hover {
+  color: red;
+}

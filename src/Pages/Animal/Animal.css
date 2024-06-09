@@ -1,0 +1,151 @@
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.animal-create {
+  margin-bottom: 20px;
+}
+
+.animal-create h1 {
+  margin-bottom: 10px;
+}
+
+.animal-create input[type="text"],
+.animal-create input[type="date"],
+.animal-create select {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.animal-create button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.animal-create button:hover {
+  background-color: #45a049;
+}
+
+.animal-search {
+  margin-bottom: 20px;
+}
+
+.animal-search h3 {
+  margin-bottom: 10px;
+}
+
+.animal-search input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.animal-search button {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.animal-search button:hover {
+  background-color: #007baa;
+}
+
+.search-animal {
+  margin-bottom: 20px;
+}
+
+.search-animal h3 {
+  margin-bottom: 10px;
+}
+
+.search-animal input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.search-animal button {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-animal button:hover {
+  background-color: #e68a00;
+}
+
+.list {
+  margin-bottom: 20px;
+}
+
+.list h3 {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table th:first-child,
+.table td:first-child {
+  min-width: 50px;
+}
+
+.table th:nth-child(2),
+.table td:nth-child(2) {
+  min-width: 150px;
+}
+
+.table th:last-child,
+.table td:last-child {
+  min-width: 100px;
+}
+
+.table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover td {
+  color: #333;
+}
+
+.table tbody tr:hover span {
+  color: #333;
+}
+
+.table tbody tr td span {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.table tbody tr td span:hover {
+  color: red;
+}
